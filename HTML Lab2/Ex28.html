@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ex28</title>
+</head>
+<body>
+    <p id="top">
+        <a href="#but">go to buttom</a><br>
+            Types of Operating Systems
+            Operating systems fall into several general categories distinguished by the speed of
+            their response and the method used to enter data into the system. The five categories
+            are batch, interactive, real-time, hybrid, and embedded systems.
+            Batch systems feature jobs that are entered as a whole and in sequence. That is, only
+            one job can be entered at a time, and once a job begins processing, then no other job
+            can start processing until the resident job is finished. These systems date from early
+            computers, when each job consisted of a stack of cards—or reels of magnetic tape—
+            for input and were entered into the system as a unit, called a batch. The efficiency of
+            a batch system is measured in throughput, which is the number of jobs completed in a
+            given amount of time (usually measured in minutes, hours, or days.)
+            Interactive systems allow multiple jobs to begin processing and return results to
+            users with better response times than batch systems, but interactive systems are
+            slower than the real-time systems we talk about next. Early versions of these operating
+            systems allowed each user to interact directly with the computer system via
+            commands entered from a typewriter-like terminal, and the operating system used
+            complex algorithms to share processing power (often with a single processor)
+            among the jobs awaiting processing. Interactive systems offered huge improvements
+            in response over batch-only systems with turnaround times in seconds or minutes
+            instead of hours or days.
+            Real-time systems are used in time-critical environments where reliability is critical
+            and data must be processed within a strict time limit. This time limit need not
+            be ultra-fast (though it often is), but system response time must meet the deadline
+            because there are significant consequences of not doing so. They also need to provide
+            contingencies to fail gracefully—that is, preserve as much of the system’s capabilities
+            and data as possible to facilitate recovery. Examples of real-time systems
+            are those used for spacecraft, airport traffic control, fly-by-wire aircraft, critical
+            industrial processes, and medical systems, to name a few. There are two types of
+            real-time systems depending on the consequences of missing the deadline: hard and
+            soft systems.
+            • Hard real-time systems risk total system failure if the predicted time deadline is missed.
+            • Soft real-time systems suffer performance degradation, but not total system failure,
+            as a consequence of a missed deadline.
+            Although it’s theoretically possible to convert a general-purpose operating system
+            into a real-time system by merely establishing a deadline, the need to be extremely
+            predictable is not part of the design criteria for most operating systems so they can’t
+            ovide the guaranteed response times that real-time performance requires. Therefore,
+            most embedded systems (described below) and real-time environments require operating
+            systems that are specially designed to meet real-time needs.
+            Hybrid systems, widely used today, are a combination of batch and interactive. They
+            appear to be interactive because individual users can enter multiple jobs or processes
+            into the system and get fast responses, but these systems actually accept and run
+            batch programs in the prbackground when the interactive load is light. A hybrid system
+            takes advantage of the free time between high-demand usage of the system and lowdemand
+            times.Networks allow users to manipulate resources that may be located over a wide geographical
+            area. Network operating systems were originally similar to single-processor
+            operating systems in that each machine ran its own local operating system and served
+            its own local user group. Now network operating systems make up a special class of
+            software that allows users to perform their tasks using few, if any, local resources.
+            One example of this phenomenon is cloud computing.Embedded systems are computers that are physically placed inside the products that
+            they operate to add very specific features and capabilities. For example, embedded systems
+            can be found in automobiles, digital music players, elevators, and pacemakers, to name a few. Computers embedded in automobiles facilitate engine performance, braking,
+            navigation, entertainment systems, and engine diagnostic details.
+            Operating systems for embedded computers are very different from those for general
+            computer systems. Each one is designed to perform a set of specific programs, which
+            are not interchangeable among systems. This permits the designers to make the operating
+            system more efficient and take advantage of the computer’s limited resources (typically
+            slower CPUs and smaller memory resources), to their maximum.
+            Before a general-purpose operating system, such as Linux, UNIX, or Windows, can be
+            used in an embedded system, the system designers must select which operating system
+            components are required in that particular environment and which are not. The final
+            version of this operating system generally includes redundant safety features and only
+            the necessary elements; any unneeded features or functions are dropped. Therefore,
+            operating systems with a small kernel (the core portion of the software) and other
+            functions that can be mixed and matched to meet the embedded system requirements
+            have potential in this market.  Types of Operating Systems
+            Operating systems fall into several general categories distinguished by the speed of
+            their response and the method used to enter data into the system. The five categories
+            are batch, interactive, real-time, hybrid, and embedded systems.
+            Batch systems feature jobs that are entered as a whole and in sequence. That is, only
+            one job can be entered at a time, and once a job begins processing, then no other job
+            can start processing until the resident job is finished. These systems date from early
+            computers, when each job consisted of a stack of cards—or reels of magnetic tape—
+            for input and were entered into the system as a unit, called a batch. The efficiency of
+            a batch system is measured in throughput, which is the number of jobs completed in a
+            given amount of time (usually measured in minutes, hours, or days.)
+            Interactive systems allow multiple jobs to begin processing and return results to
+            users with better response times than batch systems, but interactive systems are
+            slower than the real-time systems we talk about next. Early versions of these operating
+            systems allowed each user to interact directly with the computer system via
+            commands entered from a typewriter-like terminal, and the operating system used
+            complex algorithms to share processing power (often with a single processor)
+            among the jobs awaiting processing. Interactive systems offered huge improvements
+            in response over batch-only systems with turnaround times in seconds or minutes
+            instead of hours or days.
+            Real-time systems are used in time-critical environments where reliability is critical
+            and data must be processed within a strict time limit. This time limit need not
+            be ultra-fast (though it often is), but system response time must meet the deadline
+            because there are significant consequences of not doing so. They also need to provide
+            contingencies to fail gracefully—that is, preserve as much of the system’s capabilities
+            and data as possible to facilitate recovery. Examples of real-time systems
+            are those used for spacecraft, airport traffic control, fly-by-wire aircraft, critical
+            industrial processes, and medical systems, to name a few. There are two types of
+            real-time systems depending on the consequences of missing the deadline: hard and
+            soft systems.
+            • Hard real-time systems risk total system failure if the predicted time deadline is missed.
+            • Soft real-time systems suffer performance degradation, but not total system failure,
+            as a consequence of a missed deadline.
+            Although it’s theoretically possible to convert a general-purpose operating system
+            into a real-time system by merely establishing a deadline, the need to be extremely
+            predictable is not part of the design criteria for most operating systems so they can’t
+            ovide the guaranteed response times that real-time performance requires. Therefore,
+            most embedded systems (described below) and real-time environments require operating
+            systems that are specially designed to meet real-time needs.
+            Hybrid systems, widely used today, are a combination of batch and interactive. They
+            appear to be interactive because individual users can enter multiple jobs or processes
+            into the system and get fast responses, but these systems actually accept and run
+            batch programs in the prbackground when the interactive load is light. A hybrid system
+            takes advantage of the free time between high-demand usage of the system and lowdemand
+            times.Networks allow users to manipulate resources that may be located over a wide geographical
+            area. Network operating systems were originally similar to single-processor
+            operating systems in that each machine ran its own local operating system and served
+            its own local user group. Now network operating systems make up a special class of
+            software that allows users to perform their tasks using few, if any, local resources.
+            One example of this phenomenon is cloud computing.Embedded systems are computers that are physically placed inside the products that
+            they operate to add very specific features and capabilities. For example, embedded systems
+            can be found in automobiles, digital music players, elevators, and pacemakers, to name a few. Computers embedded in automobiles facilitate engine performance, braking,
+            navigation, entertainment systems, and engine diagnostic details.
+            Operating systems for embedded computers are very different from those for general
+            computer systems. Each one is designed to perform a set of specific programs, which
+            are not interchangeable among systems. This permits the designers to make the operating
+            system more efficient and take advantage of the computer’s limited resources (typically
+            slower CPUs and smaller memory resources), to their maximum.
+            Before a general-purpose operating system, such as Linux, UNIX, or Windows, can be
+            used in an embedded system, the system designers must select which operating system
+            components are required in that particular environment and which are not. The final
+            version of this operating system generally includes redundant safety features and only
+            the necessary elements; any unneeded features or functions are dropped. Therefore,
+            operating systems with a small kernel (the core portion of the software) and other
+            functions that can be mixed and matched to meet the embedded system requirements
+            have potential in this market. <br id="but">
+            <a href="#top">go to top</a>
+    </p > 
+</body>
+</html>

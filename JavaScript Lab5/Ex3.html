@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ex3</title>
+</head>
+<body>
+    <script>
+        function reverseArray(a){
+            var a = window.prompt("Enter Array: ");
+            var newArray = [];
+            for (i=a.length-1;i>=0;i--){
+                newArray.push(a[i]);
+            }
+            return newArray;
+        }
+        document.write(reverseArray());
+    </script>
+</body>
+</html>

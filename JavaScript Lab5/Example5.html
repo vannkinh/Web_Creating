@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exam5</title>
+</head>
+<body>
+    <script>
+        function piglatin(a){
+            var newStr="";
+            var n =a.length;
+            if (a[0]=="a" || a[0]=="e" || a[0]=="i" || a[0]=="o" || a[0]=="u" ){
+                newStr+=a+"way";
+            }
+            else{
+                newStr+=a+"ay";
+            }
+            return newStr;
+        }
+        document.write(piglatin("orange"));
+    </script>
+</body>
+</html>

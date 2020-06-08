@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2</title>
+    <style>
+        .b1,.b2{
+            width: 300px;
+            height: 30px;
+        }
+        .b3{
+            height: 30px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    
+    <input type="text" placeholder="Username" class="b1" name="Username"> <br> <br>
+	<input type="text" placeholder="Password" class="b2" name="Password"> <br> <br>
+    <button style="background-color:blue; color:white; " class="b3" onclick="myFunction()">Sign In</button>
+    <script>
+         var Username="Vannkinh";
+         var Password="12345";
+            if(Username=="Vannkinh" && Password==12345){
+                function myFunction() {
+                    location.replace("file:///C:/Users/MSI-PC/Documents/I4_Lesson/Software_Engineering/TP/TP21/dashboard/index.html")
+                 }
+            }
+            // else{
+            //     var Username=!"Vannkinh";
+            //     var Password=!"12345";
+            //     function myFunction(){
+            //         location.replace("file:///C:/Users/MSI-PC/Documents/I4%20Lesson/Internet%20Programing/Semester%20II/Testing/Tast2.html")
+            //     }
+            // }
+            else{
+                system.out.println("Hello");
+            }
+    </script>
+	
+</body>
+</html>

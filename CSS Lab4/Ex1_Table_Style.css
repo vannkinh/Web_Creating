@@ -1,0 +1,40 @@
+fieldset{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    background-color: #fac09f;
+    border: solid 3px #f79460;
+}
+legend{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    color: #600;
+}
+select{
+    width: 195px;
+    height: 220x;
+}
+#Butt{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 25;
+    background-color: #f79460;
+    border-radius: solid;
+}
+#Fav{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 50px;
+}
+table{
+    margin-right: auto;
+    width: 100%;
+}
+#b1,#b2,#b3{
+    width: 190px;
+    height: 15px;
+}

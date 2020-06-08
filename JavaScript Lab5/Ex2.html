@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ex2</title>
+</head>
+<body>
+    <script>
+      function bubble_sort(a){
+    var s =a.length;
+    for(var i=0;i<s-1;i++){
+        for(var j=0;j<s-i-1;j++){
+            if(a[j]>a[j+1]){
+                var temp = a[j]; 
+                a[j] = a[j+1]; 
+                a[j+1] = temp;
+            }
+        }
+    }
+    return a;
+}
+document.write(bubble_sort([9,3,4,5,1,0]));
+</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var res, numberOfIndex;
+        var str = prompt("Input the word: ");
+        
+        numberOfIndex = str.length -1;
+    
+        str = str.toLowerCase();
+        
+        function reverseStartToEnd(str){
+            var newString = "";
+            for(var i=0; i <= numberOfIndex; i++){
+                if (i == 0){
+                    newString += str[numberOfIndex];
+                }else if(i == numberOfIndex){
+                    newString += str[0];
+                }else{
+                    newString += str[i];
+                }
+            }
+            return newString;
+        }
+        
+        function piglatin(str){
+            if (str[0]=='a' || str[0]=='e' || str[0]=='i' || str[0]=='o' || str[0]=='u'){
+                res = str + "way";
+            }else{
+                res = reverseStartToEnd(str) + "ay";
+            }
+            return res;
+        }
+        
+        document.write(piglatin(str));
+        
+    </script>
+</body>
+</html>
