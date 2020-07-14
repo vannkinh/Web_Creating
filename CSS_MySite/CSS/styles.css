@@ -1,0 +1,140 @@
+.top-container{
+    background-color: #ddf3f5;
+    position: relative;
+    padding: 150px;
+}
+.middle-container{
+    margin: 100px 0;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+hr{
+    border: dotted #66BFBF 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    margin: 0;
+    color: #66BFBF;
+}
+h2{
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3{
+    color: #66BFBF;;
+}
+h4{
+    color: #11999E;
+}
+a{
+    color: #096a6d;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    margin: 10px 5px;
+}
+a:hover{
+    color: #EAF6F6;
+}
+.t-cloud{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+.b-cloud{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 250px;
+}
+.copy-right{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+    text-align: left;
+
+}
+.code1{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.compitition{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.introduction{
+    width: 30%;
+    margin: 0 auto 0 auto;
+}
+p{
+    line-height: 2;
+}
+.las-info{
+    width: 20%;
+    margin: 0 auto 0 auto;
+}
+.BUTTON_BTC {
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #1E96D0);
+    background-image: -moz-linear-gradient(top, #66BFBF, #1E96D0);
+    background-image: -ms-linear-gradient(top, #66BFBF, #1E96D0);
+    background-image: -o-linear-gradient(top, #66BFBF, #1E96D0);
+    background-image: linear-gradient(to bottom, #66BFBF, #1E96D0);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 200;
+    padding: 15px;
+    box-shadow: 1px 1px 20px 0px #000000;
+    -webkit-box-shadow: 1px 1px 20px 0px #000000;
+    -moz-box-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_BTC:hover {
+    border: solid #33C1ED 1px;
+    background: #1EC8D0;
+    background-image: -webkit-linear-gradient(top, #1EC8D0, #179197);
+    background-image: -moz-linear-gradient(top, #1EC8D0, #179197);
+    background-image: -ms-linear-gradient(top, #1EC8D0, #179197);
+    background-image: -o-linear-gradient(top, #1EC8D0, #179197);
+    background-image: linear-gradient(to bottom, #1EC8D0, #179197);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
